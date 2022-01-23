@@ -13,7 +13,7 @@ import Loader from "./components/loader";
 
 class App extends Component {
   state = {
-    showLoader: true,
+    showLoader: false,
     searchQuery: "",
     images: [],
     showModal: false,
